@@ -1,0 +1,109 @@
+body {
+    padding-top: 5rem;
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+#NavbarStyle{background-color: #7900aC !important;}
+
+@media  screen and (min-width: 1200px){
+    #NavbarStyle{
+        height: 75px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #navbar-brand{font-size: 40px;font-weight: 800;padding-left: 30px;padding-top: 0px;}
+}
+@media  screen and (max-width: 1200px){
+    #NavbarStyle{
+    height: 90px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    #navbar-brand{font-size: 55px;font-weight: 800;padding-left: 20px;padding-top: 0px;}
+}
+@media  screen and (max-width: 992px){
+    #NavbarStyle{
+    height: 90px;
+    padding-top: 0px;
+    }
+    #navbar-brand{font-size: 55px;font-weight: 800;padding-left: 20px;padding-top: 0px;}
+}
+@media  screen and (max-width: 768px){
+    #NavbarStyle{
+        height: 85px;
+        padding-top: 0px;
+    }
+    #navbar-brand{font-size: 48px;font-weight: 800;padding-left: 15px;padding-top: 0px;}
+}
+@media  screen and (max-width: 576px){
+    #NavbarStyle{height: 80px;}
+    #navbar-brand{font-size: 40px;font-weight: 800;}
+}
+
+
+
+
+.select-css{
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #7900AC;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3…c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E),
+    linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+.select-css::-ms-expand {
+    display: none;
+  }
+  .select-css:hover {
+    border-color: #888;
+  }
+  .select-css:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(122, 5, 255, 0.7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+  }
+  .select-css option {
+    font-weight:normal;
+  }
+  #ButtonViewOrders{margin-left: 12px;background-color: #1B003A;color: #fff;border-radius: 30px;}
+  #ButtonViewOrders:hover{background-color: #4B0081;}
+  .category{border-radius: 20px;border: 9px solid white}
+  /*.imgIcone{height: 50%;width: 50%;margin-top: 12px;border: 3px solid white;border-radius: 20px;}*/
+  .imgIcone{font-size: 120px;margin-top: 20px;border: 3px solid white; border-radius: 20px;}
+  #category1{background-color: #E3A6BF;}
+  #category1:hover{background-color: #F8D8E8;}
+  #category2{background-color: #A6D5D6;}
+  #category2:hover{background-color: #B9FFCA;}
+  #category3{background-color: #AEACCB;}
+  #category3:hover{background-color: #C5C3E2;}
+  #category4{background-color: #FFD14A;}
+  #category4:hover{background-color:  #FFFFBA;}
+  #category5{background-color: #01C8E8;}
+  #category5:hover{background-color: #97F4F9;}
+  .textCategoryH4{color: white; margin-top: 30px;}
+  .textCategoryH5{color: white;}
+  #ModalHeader{background-color: #7900AC;color: white;}
+  #ButtonsModals{background-color: #4B0081;color: #fff;border-radius: 30px;}
+  .ProdCOnte{border-radius: 20px;border: 1px solid rgba(0, 0, 0, 0.37);}
+  #MoreCategory{margin-left: 12px;background-color: #1B003A;color: #fff;border-radius: 30px;margin-left: auto;display: block;}
